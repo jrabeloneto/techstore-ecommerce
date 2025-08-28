@@ -40,12 +40,12 @@ const ProductList = () => {
   }, [selectedCategory, selectedBrand, priceRange, sortBy]);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* Header */}
-      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 space-y-4 sm:space-y-0">
+      <div className="header-mobile flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 space-y-4 sm:space-y-0">
         <div>
-          <h2 className="text-2xl font-bold text-gray-900">Produtos</h2>
-          <p className="text-gray-600 mt-1">
+          <h2 className="hero-title text-2xl md:text-3xl font-bold text-gray-900">Produtos</h2>
+          <p className="text-gray-600 mt-1 text-sm md:text-base">
             {filteredProducts.length} produtos encontrados
           </p>
         </div>
@@ -185,7 +185,7 @@ const ProductList = () => {
               <p className="text-gray-400 mt-2">Tente ajustar os filtros</p>
             </div>
           ) : (
-            <div className={`grid gap-6 ${
+            <div className={`product-grid grid gap-4 md:gap-6 ${
               viewMode === 'grid'
                 ? 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'
                 : 'grid-cols-1'

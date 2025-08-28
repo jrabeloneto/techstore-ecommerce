@@ -30,13 +30,13 @@ const ProductCard = ({ product }) => {
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden product-card group">
+    <div className="product-card bg-white rounded-lg shadow-md overflow-hidden group">
       {/* Image Container */}
       <div className="relative aspect-square overflow-hidden">
         <img
           src={product.image}
           alt={product.name}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          className="product-image w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
         />
         
         {/* Discount Badge */}
@@ -78,8 +78,8 @@ const ProductCard = ({ product }) => {
         </div>
 
         {/* Price */}
-        <div className="flex items-center space-x-2 mb-3">
-          <span className="text-lg font-bold price-highlight">
+        <div className="price-section flex items-center space-x-2 mb-3">
+          <span className="product-price text-lg font-bold price-highlight">
             {formatPrice(product.price)}
           </span>
           {product.originalPrice && (
@@ -112,14 +112,14 @@ const ProductCard = ({ product }) => {
         <button
           onClick={handleAddToCart}
           disabled={!product.inStock}
-          className={`w-full flex items-center justify-center space-x-2 py-2 px-4 rounded-lg font-medium transition-colors ${
+          className={`add-to-cart-btn w-full flex items-center justify-center space-x-2 py-2 px-4 rounded-lg font-medium transition-colors ${
             product.inStock
               ? 'bg-blue-600 hover:bg-blue-700 text-white'
               : 'bg-gray-300 text-gray-500 cursor-not-allowed'
           }`}
         >
           <ShoppingCart className="h-4 w-4" />
-          <span>
+          <span className="text-sm md:text-base">
             {product.inStock ? 'Adicionar ao Carrinho' : 'Indisponível'}
           </span>
         </button>

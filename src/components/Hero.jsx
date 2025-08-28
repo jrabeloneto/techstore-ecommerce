@@ -6,24 +6,24 @@ const Hero = () => {
     <div className="relative overflow-hidden">
       {/* Hero Section */}
       <div className="hero-gradient">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <div className="hero-section container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
+            <h1 className="hero-title text-3xl md:text-4xl lg:text-6xl font-bold text-white mb-4 md:mb-6">
               A Tecnologia do
               <span className="block bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
                 Futuro Hoje
               </span>
             </h1>
-            <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+            <p className="hero-subtitle text-lg md:text-xl text-blue-100 mb-6 md:mb-8 max-w-3xl mx-auto px-4">
               Descubra os produtos mais inovadores com os melhores preços. 
               Qualidade garantida, entrega rápida e suporte excepcional.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors flex items-center justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
+              <button className="bg-white text-blue-600 px-6 md:px-8 py-3 md:py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors flex items-center justify-center">
                 Explorar Produtos
                 <ArrowRight className="ml-2 h-5 w-5" />
               </button>
-              <button className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+              <button className="border-2 border-white text-white px-6 md:px-8 py-3 md:py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
                 Ver Ofertas
               </button>
             </div>
@@ -32,9 +32,9 @@ const Hero = () => {
       </div>
 
       {/* Features Section */}
-      <div className="bg-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="bg-white py-8 md:py-16">
+        <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             {/* Feature 1 */}
             <div className="text-center">
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -78,9 +78,9 @@ const Hero = () => {
       </div>
 
       {/* Stats Section */}
-      <div className="bg-gray-50 py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+      <div className="bg-gray-50 py-8 md:py-12">
+        <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 text-center">
             <div>
               <div className="text-3xl font-bold text-blue-600 mb-2">50K+</div>
               <div className="text-gray-600">Clientes Satisfeitos</div>
