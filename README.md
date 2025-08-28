@@ -1,4 +1,4 @@
-# 🛒 TechStore - E-commerce Moderno
+# TechStore - E-commerce Moderno
 
 [![React](https://img.shields.io/badge/React-18.3.1-blue.svg)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.3.5-646CFF.svg)](https://vitejs.dev/)
@@ -7,48 +7,48 @@
 
 > E-commerce completo e moderno desenvolvido em React com funcionalidades avançadas de carrinho de compras, autenticação de usuários e interface responsiva.
 
-## 🌟 Demonstração
+## Demonstração
 
-**🔗 [Ver Demo Online](https://techstore-ecommerce.vercel.app)**
+**Ver Demo Online: https://techstore-ecommerce.vercel.app**
 
 ![TechStore Preview](https://via.placeholder.com/800x400/6366f1/ffffff?text=TechStore+E-commerce)
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-### 🛍️ **E-commerce Completo**
+### **E-commerce Completo**
 - Catálogo de produtos com 12+ itens
 - Sistema de categorias e filtros avançados
 - Busca em tempo real
 - Ordenação por preço, nome e avaliação
 - Visualização em grid e lista
 
-### 🛒 **Carrinho de Compras**
+### **Carrinho de Compras**
 - Adicionar/remover produtos
 - Atualizar quantidades
 - Cálculo automático de totais
 - Persistência no localStorage
 - Sidebar deslizante responsiva
 
-### 👤 **Sistema de Autenticação**
+### **Sistema de Autenticação**
 - Login e registro de usuários
 - Autenticação simulada
 - Persistência de sessão
 - Modal responsivo
 
-### 🎨 **Design Moderno**
+### **Design Moderno**
 - Interface responsiva (mobile-first)
 - Animações suaves com CSS
 - Gradientes e efeitos visuais
 - Tema consistente
 - Componentes reutilizáveis
 
-### 📱 **Responsividade Total**
+### **Responsividade Total**
 - Otimizado para mobile, tablet e desktop
 - Menu hambúrguer para dispositivos móveis
 - Layout adaptativo
 - Touch-friendly
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### **Frontend**
 - **React 18.3.1** - Biblioteca JavaScript para interfaces
@@ -66,7 +66,7 @@
 - **Error Boundaries** - Tratamento de erros
 - **Performance Optimization** - Memoização e otimizações
 
-## 📦 Instalação e Uso
+## Instalação e Uso
 
 ### **Pré-requisitos**
 - Node.js 18+ 
@@ -116,7 +116,7 @@ pnpm build
 npm run preview
 ```
 
-## 🏗️ Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 techstore-ecommerce/
@@ -142,7 +142,7 @@ techstore-ecommerce/
 └── tailwind.config.js     # Configuração Tailwind
 ```
 
-## 🎯 Funcionalidades Detalhadas
+## Funcionalidades Detalhadas
 
 ### **Catálogo de Produtos**
 - 12 produtos reais com imagens do Unsplash
@@ -169,7 +169,7 @@ techstore-ecommerce/
 - Avatar e nome do usuário
 - Logout funcional
 
-## 🎨 Design System
+## Design System
 
 ### **Cores Principais**
 - **Primary**: `#3B82F6` (Blue-500)
@@ -191,7 +191,7 @@ techstore-ecommerce/
 - Modals com backdrop blur
 - Animações CSS customizadas
 
-## 📊 Performance
+## Performance
 
 - **Lighthouse Score**: 95+ em todas as métricas
 - **Bundle Size**: < 500KB gzipped
@@ -199,7 +199,7 @@ techstore-ecommerce/
 - **Time to Interactive**: < 3s
 - **Cumulative Layout Shift**: < 0.1
 
-## 🚀 Deploy
+## Deploy
 
 ### **Vercel (Recomendado)**
 1. Conecte seu repositório GitHub ao Vercel
@@ -219,7 +219,7 @@ npm run build
 npm run deploy
 ```
 
-## 🤝 Contribuição
+## Contribuição
 
 Contribuições são bem-vindas! Para contribuir:
 
@@ -229,7 +229,7 @@ Contribuições são bem-vindas! Para contribuir:
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-## 📝 Roadmap
+## Roadmap
 
 ### **Próximas Funcionalidades**
 - [ ] Sistema de pagamento (Stripe/PayPal)
@@ -252,11 +252,11 @@ Contribuições são bem-vindas! Para contribuir:
 - [ ] SEO optimization
 - [ ] Analytics integration
 
-## 📄 Licença
+## Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## 👨‍💻 Autor
+## Autor
 
 **João da Cunha Rabelo Neto**
 - GitHub: [@jrabeloneto](https://github.com/jrabeloneto)
@@ -265,7 +265,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-⭐ **Se este projeto te ajudou, considere dar uma estrela!**
+**Se este projeto te ajudou, considere dar uma estrela!**
 
 **Desenvolvido com ❤️ por João Rabelo**
 
