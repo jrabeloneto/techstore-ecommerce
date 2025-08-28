@@ -65,20 +65,20 @@ const ProductCard = ({ product }) => {
         <p className="text-sm text-gray-500 mb-1">{product.brand}</p>
         
         {/* Product Name */}
-        <h3 className="font-semibold text-gray-900 mb-2 line-clamp-2 group-hover:text-blue-600 transition-colors">
+        <h3 className="product-title font-semibold text-gray-900 mb-2 line-clamp-2 group-hover:text-blue-600 transition-colors">
           {product.name}
         </h3>
 
         {/* Rating */}
-        <div className="flex items-center space-x-1 mb-2">
+        <div className="product-rating flex items-center space-x-1 mb-3">
           <div className="flex">{renderStars(product.rating)}</div>
-          <span className="text-sm text-gray-500">
-            ({product.reviews})
+          <span className="text-sm text-gray-500 ml-2">
+            ({product.reviews} reviews)
           </span>
         </div>
 
         {/* Price */}
-        <div className="price-section flex items-center space-x-2 mb-3">
+        <div className="price-section flex items-center space-x-2 mb-4">
           <span className="product-price text-lg font-bold price-highlight">
             {formatPrice(product.price)}
           </span>
@@ -90,7 +90,7 @@ const ProductCard = ({ product }) => {
         </div>
 
         {/* Features */}
-        <div className="mb-4">
+        <div className="product-features mb-4">
           <div className="flex flex-wrap gap-1">
             {product.features.slice(0, 3).map((feature, index) => (
               <span
@@ -112,14 +112,14 @@ const ProductCard = ({ product }) => {
         <button
           onClick={handleAddToCart}
           disabled={!product.inStock}
-          className={`add-to-cart-btn w-full flex items-center justify-center space-x-2 py-2 px-4 rounded-lg font-medium transition-colors ${
+          className={`add-to-cart-btn w-full flex items-center justify-center space-x-2 py-3 px-4 rounded-lg font-semibold transition-colors ${
             product.inStock
               ? 'bg-blue-600 hover:bg-blue-700 text-white'
               : 'bg-gray-300 text-gray-500 cursor-not-allowed'
           }`}
         >
-          <ShoppingCart className="h-4 w-4" />
-          <span className="text-sm md:text-base">
+          <ShoppingCart className="h-5 w-5" />
+          <span className="font-semibold">
             {product.inStock ? 'Adicionar ao Carrinho' : 'Indisponível'}
           </span>
         </button>
