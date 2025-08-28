@@ -7,6 +7,7 @@ import ProductList from './components/ProductList';
 import Cart from './components/Cart';
 import AuthModal from './components/AuthModal';
 import './App.css';
+import './mobile.css';
 
 function App() {
   const [isCartOpen, setIsCartOpen] = useState(false);
